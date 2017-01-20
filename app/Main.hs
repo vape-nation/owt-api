@@ -1,6 +1,9 @@
 module Main where
 
-import Lib
+import Network.Wai
+import Network.Wai.Handler.Warp
+
+import Endpoints (tourServer)
 
 main :: IO ()
-main = someFunc
+main = run 8081 tourServer

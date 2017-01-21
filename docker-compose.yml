@@ -1,6 +1,6 @@
 version: '2'
 services:
-  petapi:
+  owt-api:
     image: owt-api
     build:
       context: .

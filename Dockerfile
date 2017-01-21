@@ -1,4 +1,4 @@
-FROM haskell:7.10
+FROM haskell:latest
 
 
 WORKDIR /opt/server

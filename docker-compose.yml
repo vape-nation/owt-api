@@ -1,0 +1,10 @@
+version: '2'
+services:
+  petapi:
+    image: owt-api
+    build:
+      context: .
+      dockerfile : ./Dockerfile
+    container_name: 'owt-api-cont'
+    ports:
+      - "8081:8081"
